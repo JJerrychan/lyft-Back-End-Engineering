@@ -7,6 +7,9 @@ from engine.engines.capulet_engine import CapuletEngine
 from engine.engines.sternman_engine import SternmanEngine
 from engine.engines.willoughby_engine import WilloughbyEngine
 
+from tire.tires.carrigan_tire import CarriganTire
+from tire.tires.octoprime_tire import OctoprimeTire
+
 
 class CarFactory:
     @staticmethod
